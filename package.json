@@ -1,0 +1,30 @@
+{
+  "name": "recursive-js-deep-compare",
+  "version": "1.0.5",
+  "description": "NİBGAT® | Libraries - Deep Compare for JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./ -d dist --ignore node_modules,.history,yarn.lock,createRelease.js && node createRelease.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nibgat/recursive-js-deep-compare.git"
+  },
+  "keywords": [
+    "recursive",
+    "js",
+    "deep",
+    "compare"
+  ],
+  "author": "nibgat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nibgat/recursive-js-deep-compare/issues"
+  },
+  "homepage": "https://github.com/nibgat/recursive-js-deep-compare#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
